@@ -1,5 +1,5 @@
 const contact = function () {
-    const content = document.querySelector('#content');
+    const content = document.querySelector('#content') as HTMLElement;
 
     const address = document.createElement('h2');
     address.textContent = '123 Baltimore St.'

@@ -1,11 +1,11 @@
-import { home } from './home.js';
-import { menu } from './menu.js';
-import { contact } from'./contact.js';
+import { home } from './home';
+import { menu } from './menu';
+import { contact } from'./contact';
 
 home();
 
-const nav = document.querySelector('#nav');
-const content = document.querySelector('#content');
+const nav = document.querySelector('#nav') as HTMLElement;
+const content = document.querySelector('#content') as HTMLElement;
 
 const homeButton = document.createElement('button');
 homeButton.addEventListener('click', () => {

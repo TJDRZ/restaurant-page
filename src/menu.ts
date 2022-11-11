@@ -1,5 +1,5 @@
 const menu = function () {
-    const content = document.querySelector('#content');
+    const content = document.querySelector('#content') as HTMLElement;
     const lineBreak = document.createElement('hr')
 
     const blueberry = document.createElement('h2');

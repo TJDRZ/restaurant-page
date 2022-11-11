@@ -1,5 +1,5 @@
 const home = function () {
-    const content = document.querySelector('#content');
+    const content = document.querySelector('#content') as HTMLElement;
 
     const header = document.createElement('h1');
     header.textContent = 'Pain Perdu';
